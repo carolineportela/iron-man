@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-size: 100%;
+background-color: #F5F5F5;
+}
+
+.cabeçalho{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins';
+
+}
+.cabeçalho-home{
+    width: 64px; 
+}
+.cabeçalho-menu{
+display: flex;
+gap: 25px;
+
+}
+.cabeçalho-icones{
+    display: flex;
+    gap: 13px;
+}
+.lupa-menu{
+    width: 20px;
+    height: 20.5px
+}
+.retangulo-menu{
+    width: 20px;
+    height: 20.5px
+}
+.icone-menu{
+    width: 20px;
+    height: 20.5px
+}
+     /* header finalizado */
+     /* daqui pra baixo são os conteúdos */
+
+
+.conteudo-principal{
+    display: flex;
+
+   
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
