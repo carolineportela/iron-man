@@ -50,7 +50,12 @@ gap: 25px;
 .conteudo-principal{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
+    margin-left: 150px;
+    gap: 130px;
+    font-family: 'Popins', sans-serif;
+
+
  
 
 }
@@ -58,9 +63,34 @@ gap: 25px;
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    height: 650px;
+     width: 440px;
+    gap: 32px; 
+   
 }
-.conteudo-principal-1{
+.marvel-character{
+    height:0px;
     
 }
+
+.subtitulo{
+    height: 0px;
+}
+
+.titulo{
+    font-weight: 700;
+    color: #8A2D5E;
+    width: 441px;
+    height: 93px;
+    left: 0px;
+    top: 14px;
+    font-weight: 700;
+     font-size: 80px;
+
+  
+    
+}
+
+
+
 
