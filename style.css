@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -51,8 +53,8 @@ gap: 25px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 150px;
-    gap: 130px;
+    margin-left: 130px;
+    gap: 160px;
     font-family: 'Popins', sans-serif;
 
 
@@ -63,34 +65,76 @@ gap: 25px;
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
-    height: 650px;
+    height: 600px;
      width: 440px;
-    gap: 32px; 
+    gap: 10px; 
    
 }
 .marvel-character{
     height:0px;
+    color: #505050;
+    
     
 }
 
 .subtitulo{
-    height: 0px;
+    height: 13px;
+    width: 100px;
+     
+    
 }
 
 .titulo{
     font-weight: 700;
     color: #8A2D5E;
-    width: 441px;
+    width: px;
     height: 93px;
     left: 0px;
     top: 14px;
     font-weight: 700;
      font-size: 80px;
+     
 
   
     
 }
+.botao{
+    position: absolute;
+    top:87%;
+    left:10%;
+    background-color: #383838;
+    padding: 10px;
+    text-align: center;
+    width: 312px;
+    color: white;
+    font-family:'Popins'
+    
+    
+    
+}
+.homem-no-site{
+    width: 316px;
+    height: 700px;
+    left: 785px;
+    top: 156.16px;
 
+}
+.frase-iron{
+   height: 700px;
+   width: 89px;
+  
+}
+
+.texto{
+    color: #505050;
+   font-weight: 400;
+  font-size: 15.71px;
+   line-height: 194.5%;
+   gap: 10px; 
+   height: px;
+   
+
+}
 
 
 
