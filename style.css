@@ -8,7 +8,7 @@
 }
 
 body{
-font-size: 100%;
+
 background-color: #F5F5F5;
 }
 
@@ -34,8 +34,8 @@ gap: 25px;
     gap: 13px;
 }
 .lupa-menu{
-    width: 20px;
-    height: 20.5px
+    width: 33px;
+    height: 25.8px
 }
 .retangulo-menu{
     width: 20px;
@@ -49,6 +49,13 @@ gap: 25px;
      /* daqui pra baixo são os conteúdos */
 
 
+.marvel-character{
+  height:0px;
+  color: #505050;
+        
+        
+ }
+
 .conteudo-principal{
     display: flex;
     flex-direction: row;
@@ -57,32 +64,18 @@ gap: 25px;
     gap: 160px;
     font-family: 'Popins', sans-serif;
 
-
- 
-
 }
 
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
     height: 600px;
-     width: 440px;
+    width: 440px;
     gap: 10px; 
+    
    
 }
-.marvel-character{
-    height:0px;
-    color: #505050;
-    
-    
-}
 
-.subtitulo{
-    height: 13px;
-    width: 100px;
-     
-    
-}
 
 .titulo{
     font-weight: 700;
@@ -98,6 +91,16 @@ gap: 25px;
   
     
 }
+
+
+.subtitulo{
+    height: 13px;
+    width: 100px;
+     
+    
+}
+
+
 .botao{
     position: absolute;
     top:87%;
@@ -133,6 +136,14 @@ gap: 25px;
    gap: 10px; 
    height: px;
    
+
+}
+.logos-sociais{
+     width: 44px;
+    height: 200px;
+    flex-direction: row-reverse;
+   
+    
 
 }
 
