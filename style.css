@@ -55,23 +55,36 @@ gap: 25px;
         
         
  }
+ .conteudo{
+ 
+    
+    
+    
+
+    
+
+ }
 
 .conteudo-principal{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 130px;
-    gap: 160px;
+    flex-direction: row; 
+    margin-left: 10%;
+    width: 88%;
+   
+    gap: 16%;
     font-family: 'Popins', sans-serif;
+    background-color:aqua ;
 
 }
 
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
-    height: 600px;
-    width: 440px;
+
+    height: 90%;
+    width: 40%;
     gap: 10px; 
+    background-color: bisque;
     
    
 }
@@ -79,13 +92,10 @@ gap: 25px;
 
 .titulo{
     font-weight: 700;
-    color: #8A2D5E;
-    width: px;
-    height: 93px;
-    left: 0px;
-    top: 14px;
-    font-weight: 700;
-     font-size: 80px;
+    color: #8A2D5E;  
+    height: 93%; 
+    font-weight: 700%;
+    font-size: 450%;
      
 
   
@@ -94,8 +104,8 @@ gap: 25px;
 
 
 .subtitulo{
-    height: 13px;
-    width: 100px;
+    height: 0%;
+    width: 30%;
      
     
 }
@@ -103,12 +113,12 @@ gap: 25px;
 
 .botao{
     position: absolute;
-    top:87%;
+    top:80%;
     left:10%;
     background-color: #383838;
-    padding: 10px;
+    padding: 1%;
     text-align: center;
-    width: 312px;
+    width: 25%;
     color: white;
     font-family:'Popins'
     
@@ -116,7 +126,7 @@ gap: 25px;
     
 }
 .homem-no-site{
-    width: 316px;
+    width: 31%;
     height: 700px;
     left: 785px;
     top: 156.16px;
@@ -141,7 +151,7 @@ gap: 25px;
 .logos-sociais{
      width: 44px;
     height: 200px;
-    flex-direction: row-reverse;
+ 
    
     
 
