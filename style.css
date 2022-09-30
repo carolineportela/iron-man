@@ -19,19 +19,38 @@ background-color: #F5F5F5;
     align-items: center;
     justify-content: space-between;
     font-family: 'Poppins';
-
 }
 .cabeçalho-home{
-    width: 64px; 
+    width: 64px;
+    text-decoration: none;
+    color: black;
+    
+   
 }
+.cabeçalho-avangers{
+    text-decoration: none;
+    color: black;
+}
+.cabeçalho-celestials{
+    text-decoration: none;
+    color: black;
+
+}
+.cabeçalho-about{
+    text-decoration: none;
+    color: black;
+}
+
 .cabeçalho-menu{
-display: flex;
-gap: 25px;
+   display: flex;
+   gap: 25px;
+   
 
 }
 .cabeçalho-icones{
     display: flex;
     gap: 13px;
+
 }
 .lupa-menu{
     width: 33px;
@@ -48,33 +67,19 @@ gap: 25px;
      /* header finalizado */
      /* daqui pra baixo são os conteúdos */
 
-
 .marvel-character{
   height:0px;
   color: #505050;
-        
-        
+               
  }
- .conteudo{
  
-    
-    
-    
-
-    
-
- }
-
 .conteudo-principal{
     display: flex;
     flex-direction: row; 
     margin-left: 10%;
     width: 88%;
-   
     gap: 16%;
-    font-family: 'Popins', sans-serif;
-    background-color:aqua ;
-
+    font-family: 'Popins', sans-serif;  
 }
 
 .conteudo-principal-escrito{
@@ -83,10 +88,7 @@ gap: 25px;
     margin-top: 100px;
     height: 90%;
     width: 40%;
-    gap: 10px; 
-    background-color: bisque;
-    
-   
+    gap: 10px;  
 }
 
 
@@ -95,45 +97,40 @@ gap: 25px;
     color: #8A2D5E;  
     height: 93%; 
     font-weight: 700%;
-    font-size: 450%;
-     
-
-  
-    
+    font-size: 450%;   
 }
 
 
 .subtitulo{
+    color: black;
     height: 0%;
-    width: 30%;
-     
-    
+  
 }
 
 
 .botao{
-    font-family: 'Popins', sans-serif;
+    font-family: 'Popins';
+    text-align: center;
     position: absolute;
     top:80%;
     left:10%;
     background-color: #383838;
-    margin-top: -100px;
-    padding: 1%;
+    margin-top: -190px;
+    padding: 12px;
     text-align: center;
-    width: 25%;
-    color: white;
-    font-family:'Popins'
-    
-    
-    
+    height: 5%;
+    width: 17%;
+    color:white;
+    text-decoration: none;  
 }
+
 .homem-no-site{
     width: auto;
     height: 800px;
     left: 785px;
     top: 156.16px;
-
 }
+
 .frase-iron{
    height: 700px;
    width: 89px;
@@ -150,15 +147,28 @@ gap: 25px;
    
 
 }
+.next{
+    position: absolute;
+    color: black;
+    top: 95%;
+    left: 85%;
+    font-size: 20px;
+    text-decoration: none;
+}
+.setanext{
+    position: absolute;
+    top: 95.5%;
+    left: 96%;
+}
+
 .logos-sociais{
      width: 44px;
     height: 200px;
     margin-top: -250px;
-    margin-left: 10px;
+    margin-left:6%;
    
     
 
 }
-
 
 
